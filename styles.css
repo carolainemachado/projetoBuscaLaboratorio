@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#searchResults {
+    list-style-type: none;
+    padding: 0;
+}
+
+#searchResults li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+#searchResults li:hover {
+    text-decoration: underline;
+}

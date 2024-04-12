@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Interativo - Portal Integra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manual Interativo - Portal Integra</h1>
+    </header>
+    <div class="content">
+        <section id="searchSection">
+            <h2>Pesquisar Laboratórios por Campus</h2>
+            <label for="campusInput">Selecione o campus:</label>
+            <select id="campusInput">
+                <option value="todos">Todos</option>
+                <option value="campus1">Campus 1</option>
+                <option value="campus2">Campus 2</option>
+                <option value="campus3">Campus 3</option>
+            </select>
+            <button onclick="searchLaboratories()">Pesquisar</button>
+            <ul id="searchResults"></ul>
+        </section>
+        <section id="contactSection">
+            <h2>Entrar em Contato com o Responsável</h2>
+            <div id="contactInfo"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
